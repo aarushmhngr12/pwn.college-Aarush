@@ -95,7 +95,7 @@ desrciption of the challenge
 make a shell script with /challenge/solve and run it without bash
 
 ### Solve
-**Flag** `pwn.college{YM_1F3BTiyS8dDgSPSYxdGOe28L.QX0cjM1wSN0kjNzEzW}`
+**Flag** `pwn.college{QM-4YRbVwsv6J5Xf4_V2Cu70YKL.QX0cjM1wiN5AzNzEzW}`
 
 ```bash
 echo /challenge/solve > x.sh
@@ -103,7 +103,7 @@ echo /challenge/solve > x.sh
 ls -l x.sh
 chmod a+x x.sh
 ./x.sh
-pwn.college{YM_1F3BTiyS8dDgSPSYxdGOe28L.QX0cjM1wSN0kjNzEzW}
+pwn.college{QM-4YRbVwsv6J5Xf4_V2Cu70YKL.QX0cjM1wiN5AzNzEzW}
 ```
 ### New Learnings
 we can directly run a shell from home directory
@@ -117,14 +117,14 @@ desrciption of the challenge
 make a shell script with /challenge/solve and run it without bash
 
 ### Solve
-**Flag** `pwn.college{YM_1F3BTiyS8dDgSPSYxdGOe28L.QX0cjM1wSN0kjNzEzW}`
+**Flag** `pwn.college{swavNnstY6enF7FveRvsFdiKMTh.0VOzMDOxwiN5AzNzEzW}`
 
 ```bash
  echo '#!/bin/bash' > /home/hacker/solve.sh
 echo 'echo "hack the planet"' >> /home/hacker/solve.sh
 chmod a+x /home/hacker/solve.sh
 /challenge/run
-Flag: pwn.college{IQ8p3V9aIFZ_YejqHCVPqcpe5rG.0VOzMDOxwSN0kjNzEzW}
+Flag: pwn.college{swavNnstY6enF7FveRvsFdiKMTh.0VOzMDOxwiN5AzNzEzW}
 ```
 ### New Learnings
 learned to use shebangs. we created a executable file /bin/bash so that the terminal knows to run the file with bash.
@@ -139,13 +139,13 @@ Takes two arguments
 Outputs them in REVERSE order (second argument first, then the first argument)
 after than run /challenge/run
 ### Solve
-**Flag** `pwn.college{A4-RBZDsIMILENmt7vXRmC1WOWr.0VNzMDOxwSN0kjNzEzW}`
+**Flag** `pwn.college{0EDzyc-9uyjglcPS5lIcVKpo-2C.0VNzMDOxwiN5AzNzEzW}`
 
 ```bash
 echo '#!/bin/bash' > /home/hacker/solve.sh
 echo 'echo "$2 $1"' >> /home/hacker/solve.sh
 /challenge/run
-pwn.college{A4-RBZDsIMILENmt7vXRmC1WOWr.0VNzMDOxwSN0kjNzEzW}
+pwn.college{0EDzyc-9uyjglcPS5lIcVKpo-2C.0VNzMDOxwiN5AzNzEzW}
 ```
 ### New Learnings
 learned about arguments
@@ -158,7 +158,7 @@ desrciption of the challenge
 write a scrift that prints college if the inpu is pwn
 
 ### Solve
-**Flag** `pwn.college{gaNTdylSSmhUX1Wf1mOi-SJYzcp.0lNzMDOxwSN0kjNzEzW}`
+**Flag** `pwn.college{0s4-G0GqOGNAMYI1bTsZPvw4j06.0lNzMDOxwiN5AzNzEzW}`
 
 ```bash
 echo '#!/bin/bash' > /home/hacker/solve.sh
@@ -170,7 +170,7 @@ hacker@chaining~scripting-with-conditionals:~$ chmod a+x /home/hacker/solve.sh
 hacker@chaining~scripting-with-conditionals:~$ /challenge/run
 Correct! Your script properly handles all the conditions.
 Here's your flag:
-pwn.college{gaNTdylSSmhUX1Wf1mOi-SJYzcp.0lNzMDOxwSN0kjNzEzW}
+pwn.college{0s4-G0GqOGNAMYI1bTsZPvw4j06.0lNzMDOxwiN5AzNzEzW}
 ```
 ### New Learnings
 learned if then fi commands and practiced more on scripting
@@ -184,7 +184,7 @@ desrciption of the challenge
 write a scrift that prints college if the input is pwn and nope for all other input
 
 ### Solve
-**Flag** `pwn.college{Yopw68F6qIjW625zmdA2_l9-iyB.01NzMDOxwSN0kjNzEzW}`
+**Flag** `pwn.college{MInQXMSGBXpk0LfG2ex3jffE6VK.01NzMDOxwiN5AzNzEzW}`
 
 ```bash
  echo '#!/bin/bash' > /home/hacker/solve.sh
@@ -194,11 +194,11 @@ echo college
 else
 echo nope
 fi ' >> /home/hacker/solve.sh
-hacker@chaining~scripting-with-default-cases:~$ chmod a+x /home/hacker/solve.sh
+hacker@chaining~scripting-with-default-cases:~$ chmod +x /home/hacker/solve.sh
 hacker@chaining~scripting-with-default-cases:~$ /challenge/run
 Correct! Your script properly handles the if/else conditions.
 Here's your flag:
-pwn.college{Yopw68F6qIjW625zmdA2_l9-iyB.01NzMDOxwSN0kjNzEzW}
+pwn.college{MInQXMSGBXpk0LfG2ex3jffE6VK.01NzMDOxwiN5AzNzEzW}
 ```
 ### New Learnings
 learned if then else fi commands and practiced more on scripting
@@ -212,7 +212,7 @@ desrciption of the challenge
 write a scrift that prints college if the input is pwn input learn output linux and unknown for all other cases
 
 ### Solve
-**Flag** `pwn.college{EeGlFqaXFNnaSOd6m16PbtVofkV.0FOzMDOxwSN0kjNzEzW}`
+**Flag** `pwn.college{goKOzWm5di45zgsy0xjM0zx6P9D.0FOzMDOxwiN5AzNzEzW}`
 
 ```bash
  echo '#!/bin/bash' > /home/hacker/solve.sh
@@ -232,7 +232,7 @@ hacker@chaining~scripting-with-multiple-conditions:~$ chmod a+x /home/hacker/sol
 hacker@chaining~scripting-with-multiple-conditions:~$ /challenge/run
 Correct! Your script properly handles all the conditions with elif.
 Here's your flag:
-pwn.college{EeGlFqaXFNnaSOd6m16PbtVofkV.0FOzMDOxwSN0kjNzEzW}
+pwn.college{goKOzWm5di45zgsy0xjM0zx6P9D.0FOzMDOxwiN5AzNzEzW}
 ```
 ### New Learnings
 learned if then elif else fi commands and practiced more on scripting
@@ -245,7 +245,7 @@ desrciption of the challenge
 ## Reading shell scripts 
 read a script and find password and run /challenge/run
 ### Solve
-**Flag** `pwn.college{snCQRcw6CthU7_gIEqho5LzJuRO.0lMwgDOxwSN0kjNzEzW}`
+**Flag** `pwn.college{ob1eUJjNhUNKsFyWHPKxkHPUa82.0lMwgDOxwiN5AzNzEzW}`
 
 ```bash
 cat /challenge/run
@@ -262,7 +262,7 @@ fi
 hacker@chaining~reading-shell-scripts:~$ /challenge/run
 hack the PLANET
 CORRECT! Your flag:
-pwn.college{snCQRcw6CthU7_gIEqho5LzJuRO.0lMwgDOxwSN0kjNzEzW}
+pwn.college{ob1eUJjNhUNKsFyWHPKxkHPUa82.0lMwgDOxwiN5AzNzEzW}
 ```
 ### New Learnings
 learned to read scripts
