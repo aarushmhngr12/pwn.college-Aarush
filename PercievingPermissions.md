@@ -5,11 +5,11 @@
 change the owner of the /flag file to the hacker user, and then read the flag
 
 ### Solve
-**Flag** `pwn.college{8zhpsvAAedXu8p9rpS518D344xK.QXxEjN0wSN0kjNzEzW}`
+**Flag** `pwn.college{wh6qFa6H7rsaTl1Wg6NF-WfcPkh.QXxEjN0wiN5AzNzEzW}`
 
 ```bash
 chown hacker /flag
-pwn.college{8zhpsvAAedXu8p9rpS518D344xK.QXxEjN0wSN0kjNzEzW}
+pwn.college{wh6qFa6H7rsaTl1Wg6NF-WfcPkh.QXxEjN0wiN5AzNzEzW}
 ```
 ### New Learnings
 using chown we can change the ownership of file.
@@ -21,13 +21,13 @@ Challenge Description
 ## Groups and Files
 change the group who can access the flag file from root to hacker
 
-**Flag** `pwn.college{MW1LdZcXJmBHho_BQPNndq7aVPg.QXxcjM1wSN0kjNzEzW}`
+**Flag** `pwn.college{EH-KvlWULSZt6Oo3Lc_eT7dSNXb.QXxcjM1wiN5AzNzEzW}`
 
 ```bash
 ls -l
 chgrp hacker not-the-flag
 cat not-the-flag
-pwn.college{MW1LdZcXJmBHho_BQPNndq7aVPg.QXxcjM1wSN0kjNzEzW}
+pwn.college{EH-KvlWULSZt6Oo3Lc_eT7dSNXb.QXxcjM1wiN5AzNzEzW}
 ```
 ### New Learnings
 using chgrp we can change the group of files
@@ -40,13 +40,13 @@ Challenge Description
 ## Fun with group names
 find the group we are in and then with that group name we should change the accessibility to the flag file
 
-**Flag** `pwn.college{giKKUCUonzG7YBjonlR5vXjlNC3.QXycjM1wSN0kjNzEzW}`
+**Flag** `pwn.college{QG2jwCPqFtIYb6KfirLkLp1PGAY.QXycjM1wiN5AzNzEzW}`
 
 ```bash
 id
 chgrp grp9392 not-the-flag
 cat not-the-flag
-pwn.college{giKKUCUonzG7YBjonlR5vXjlNC3.QXycjM1wSN0kjNzEzW}
+pwn.college{QG2jwCPqFtIYb6KfirLkLp1PGAY.QXycjM1wiN5AzNzEzW}
 ```
 ### New Learnings
 id cammand show all the users and group identity
@@ -58,12 +58,12 @@ Challenge Description
 ## Changing Permissions
 get reading permission to the flag file and read the flag without changing the owner of the file.
 
-**Flag** `pwn.college{IQjT30gXoSgkCtVuyl-sOGGHYfc.QXzcjM1wSN0kjNzEzW}`
+**Flag** `pwn.college{Qg_49gi8Yklwe3VigXRe8X_B9Yj.QXzcjM1wiN5AzNzEzW}`
 
 ```bash
 chmod a+r /flag
 cat /flag
-pwn.college{IQjT30gXoSgkCtVuyl-sOGGHYfc.QXzcjM1wSN0kjNzEzW}
+pwn.college{Qg_49gi8Yklwe3VigXRe8X_B9Yj.QXzcjM1wiN5AzNzEzW}
 ```
 ### New Learnings
 we use +add permission - remove permission to 
